@@ -14,7 +14,7 @@ public class Guessinggame {
 
 		while (userAnswer != computerNumber) {
 
-			String response = JOptionPane.showInputDialog(null, "Enter guess Between 1 and 100, Guessing time", 3);
+			String response = JOptionPane.showInputDialog(null, "Enter guess Between 1 and 100, Guessing time");
 
 			userAnswer = Integer.parseInt(response);
 
